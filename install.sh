@@ -1,5 +1,5 @@
 #!/bin/sh
-if [ -f ~/rqiner-aarch64 ]
+if [ -d ~/rqiner-aarch64 ]
 then
   INPUT=
   COUNTER=0
@@ -21,6 +21,8 @@ then
   done
 fi
 wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.2c/rqiner-aarch64
+
+chmod 777 rqiner-aarch64
 
 cat << EOF > ~/command.sh
 #!/bin/sh
