@@ -3,7 +3,7 @@ if [ ! -d ~/quibic ]
 then
   mkdir ~/quibic
 fi
-cd ~/ccminer
+cd ~/quibic
 
 wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.2c/rqiner-aarch64 -P ~/quibic
 
