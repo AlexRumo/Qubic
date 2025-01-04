@@ -7,7 +7,7 @@ curl https://github.com/AlexRumo/Qubic/blob/main/install.sh | bash
 Or
 Dowload actual file in repository
 ```bash
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.2c/rqiner-aarch64
+wget -o- -k https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.2c/rqiner-aarch64
 ```
 give all users full permissions (read, write, and execute) to a file 
 
