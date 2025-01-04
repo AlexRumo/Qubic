@@ -1,4 +1,3 @@
-git add --chmod=+x install.sh
 #!/bin/sh
 if [ ! -d ~/quibic ]
 then
