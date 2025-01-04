@@ -32,5 +32,5 @@ Autostart
 crontab -e
 ```
 ```bash
-@reboot ~/ccminer/start.sh
+@reboot sleep 20 && ./start.sh
 ```
