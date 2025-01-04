@@ -20,5 +20,5 @@ command to start mining
 ./rqiner-aarch64 -t 4 -i LDJIYLNWSLFPBCWCOXROLKVYGVXBZWTPLGPYSHYHWDZFZXZOBYNYRGRAYWED -l OPz2w01
 ```
 ```bash
-./rqiner-aarch64 -t 4 -i LDJIYLNWSLFPBCWCOXROLKVYGVXBZWTPLGPYSHYHWDZFZXZOBYNYRGRAYWED -l OPz2w01 -c ~/ccminer/ccminer -a verus -o stratum+tcp://ru.vipor.net:5040 -uRF56WKqaJ894q4wxy1GRJdozKgeXavNuhP.OPz2w01 -t 4
+./rqiner-aarch64 -t 4 -i LDJIYLNWSLFPBCWCOXROLKVYGVXBZWTPLGPYSHYHWDZFZXZOBYNYRGRAYWED -l OPz2w01 -c "./ccminer/ccminer -c ~/ccminer/config.json"
 ```
