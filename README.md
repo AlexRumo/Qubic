@@ -1,5 +1,10 @@
 # Qubic
 ## Installation instructions
+Use this link below
+```bash
+curl -o- -k https://github.com/AlexRumo/Qubic/blob/main/install.sh | bash
+```
+Or
 Dowload actual file in repository
 ```bash
 wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.2c/rqiner-aarch64
