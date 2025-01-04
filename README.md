@@ -12,7 +12,7 @@ wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.2c/
 give all users full permissions (read, write, and execute) to a file 
 
 ```bash
-chmod 777 rqiuner-aarch64
+chmod 777 rqiner-aarch64
 ```
 create an lounge file
 ```bash
