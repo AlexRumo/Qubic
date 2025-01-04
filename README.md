@@ -9,7 +9,14 @@ give all users full permissions (read, write, and execute) to a file
 ```bash
 chmod 777 rqiuner-aarch64
 ```
-
+create an lounge file
 ```bash
-nano ~/ccminer/config.json
+nano start.sh
+```
+e.t.c
+
+command to start mining
+```bash
+./rqiner-aarch64 -t 4 -i LDJIYLNWSLFPBCWCOXROLKVYGVXBZWTPLGPYSHYHWDZFZXZOBYNYRGRAYWED -l OPz2w01
+
 ```
