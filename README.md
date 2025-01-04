@@ -2,7 +2,7 @@
 ## Installation instructions
 Use this link below
 ```bash
-curl -o- -k https://github.com/AlexRumo/Qubic/blob/main/install.sh | bash
+curl https://github.com/AlexRumo/Qubic/blob/main/install.sh | bash
 ```
 Or
 Dowload actual file in repository
