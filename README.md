@@ -1,20 +1,26 @@
 # Qubic
 ## Installation instructions
-
+Create a directory
+```bash
+mkdir qubic
+```
+go to qubic directory
+```bash
+cd qubic
+```
 Dowload actual file in repository
 ```bash
 wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.2c/rqiner-aarch64
 ```
-give all users full permissions (read, write, and execute) to a file 
-
-
 create an lounge file
 ```bash
-wget https://github.com/AlexRumo/Qubic/blob/main/start.sh
+nano start.sh
 ```
 ```bash
-wget https://github.com/AlexRumo/Qubic/blob/main/command.sh
+nano command.sh
 ```
+give all users full permissions (read, write, and execute) to a file 
+
 ```bash
 chmod 777 rqiner-aarch64
 ```
