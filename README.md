@@ -38,5 +38,5 @@ Autostart
 crontab -e
 ```
 ```bash
-@reboot sleep 20 && ./start.sh
+@reboot sleep 20 && ~/qubic/start.sh
 ```
