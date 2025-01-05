@@ -1,22 +1,28 @@
 # Qubic
 ## Installation instructions
-Use this link below
-```bash
-curl -o- -k https://github.com/AlexRumo/Qubic/blob/main/install.sh | bash
-```
-Or
+
 Dowload actual file in repository
 ```bash
 wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.2c/rqiner-aarch64
 ```
 give all users full permissions (read, write, and execute) to a file 
 
+
+create an lounge file
+```bash
+wget https://github.com/AlexRumo/Qubic/blob/main/start.sh
+```
+```bash
+wget https://github.com/AlexRumo/Qubic/blob/main/command.sh
+```
 ```bash
 chmod 777 rqiner-aarch64
 ```
-create an lounge file
 ```bash
-nano start.sh
+chmod 777 start.sh
+```
+```bash
+chmod 777 command.sh
 ```
 e.t.c
 
