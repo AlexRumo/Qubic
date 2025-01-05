@@ -5,7 +5,7 @@ then
 fi
 cd ~/quibic
 
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.2c/rqiner-aarch64 -P ~/quibic
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.2c/rqiner-aarch64
 
 chmod 777 rqiner-aarch64
 
