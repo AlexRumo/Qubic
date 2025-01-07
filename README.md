@@ -17,14 +17,6 @@ create an lounge file
 nano start.sh
 ```
 ```bash
-nano command.sh
-```
-give all users full permissions (read, write, and execute) to a file 
-
-```bash
-chmod 777 rqiner-aarch64 && chmod 777 start.sh && chmod 777 command.sh
-```
-```bash
 #!/bin/sh
 #exit existing screens with the name miner
 screen -S miner -X quit 1>/dev/null 2>&1
@@ -43,16 +35,23 @@ printf '\nmonitor mining: screen -x miner\n'
 printf "exit monitor: 'CTRL-a' followed by 'd'\n\n"
 ```
 ```bash
+nano command.sh
+```
+```bash
+#!/bin/sh
+~/qubic/rqiner-aarch64 -t 4 -i LDJIYLNWSLFPBCWCOXROLKVYGVXBZWTPLGPYSHYHWDZFZXZOBYNYRGRAYWED -l OPz2w01 -c "./ccminer/ccminer -a verus -o stratum+tcp://ru.vipor.net:5040 -u RF56WKqaJ894q4wxy1GRJdozKgeXavNuhP.OPz2w -t 4"
+```
+give all users full permissions (read, write, and execute) to a file 
 
+```bash
+chmod 777 rqiner-aarch64 && chmod 777 start.sh && chmod 777 command.sh
 ```
 e.t.c
 
 command to start mining
+
 ```bash
-./rqiner-aarch64 -t 4 -i LDJIYLNWSLFPBCWCOXROLKVYGVXBZWTPLGPYSHYHWDZFZXZOBYNYRGRAYWED -l OPz2w01
-```
-```bash
-./rqiner-aarch64 -t 4 -i LDJIYLNWSLFPBCWCOXROLKVYGVXBZWTPLGPYSHYHWDZFZXZOBYNYRGRAYWED -l OPz2w01 -c "./ccminer/ccminer -a verus -o stratum+tcp://ru.vipor.net:5040 -u RF56WKqaJ894q4wxy1GRJdozKgeXavNuhP.OPz2w -t 4"
+~/qubic/start.sh
 ```
 Autostart
 ```bash
