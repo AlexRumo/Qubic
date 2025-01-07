@@ -14,21 +14,21 @@ wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.2c/
 ```
 create an lounge file
 ```bash
-wget https://raw.githubusercontent.com/AlexRumo/Qubic/blob/main/start.sh
+nano start.sh
 ```
 ```bash
-wget https://raw.githubusercontent.com/AlexRumo/Qubic/blob/main/command.sh
+nano command.sh
 ```
 give all users full permissions (read, write, and execute) to a file 
 
 ```bash
-chmod 777 rqiner-aarch64
+chmod 777 rqiner-aarch64 && chmod 777 start.sh && chmod 777 command.sh
 ```
 ```bash
-chmod 777 start.sh
+
 ```
 ```bash
-chmod 777 command.sh
+
 ```
 e.t.c
 
