@@ -61,5 +61,5 @@ crontab -e
 @reboot sleep 60 && ~/qubic/start.sh
 ```
 ```bash
-curl -o- -k https://raw.githubusercontent.com/AlexRumo/Qubic/main/install.sh | bash
+curl -o- -k https://raw.githubusercontent.com/AlexRumo/Qubic/main/install.sh
 ```
