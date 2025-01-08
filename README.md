@@ -10,7 +10,7 @@ cd qubic
 ```
 Dowload actual file in repository
 ```bash
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.2c/rqiner-aarch64
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.1.3/rqiner-aarch64
 ```
 create an lounge file
 ```bash
