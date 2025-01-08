@@ -9,3 +9,6 @@ then
   chmod 777 rqiner-aarch64
 fi
 printf '\nNo such directory.\n'
+
+echo "qubic update complete."
+echo "please reboot the device."
