@@ -11,4 +11,4 @@ fi
 
 echo "qubic update complete."
 echo "please reboot the device."
-reboot
+sleep 5 && reboot
